@@ -37,8 +37,8 @@ services:
       VERSION: "11"
       USERNAME: "razzdev"
       PASSWORD: "admin@123"
-      RAM_SIZE: "64G"  # Reduced from 64G - adjust based on your system
-      CPU_CORES: "10"   # Reduced from 20 - adjust based on your system
+      RAM_SIZE: "17G"  # Reduced from 64G - adjust based on your system
+      CPU_CORES: "3"   # Reduced from 20 - adjust based on your system
       DISK_SIZE: "500G"  # Reduced from 500G
       DISK2_SIZE: "100G"  # Reduced from 400G
       KVM: "N"  # Disable KVM since you don't have it
@@ -59,7 +59,8 @@ services:
 
 volumes:
   windows_storage:
-
+  
+EOF
 
 echo
 echo "=== ✅ File windows.yml berhasil dibuat ==="
